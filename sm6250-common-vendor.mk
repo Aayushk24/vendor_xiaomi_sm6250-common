@@ -73,8 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/xiaomi/sm6250-common/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/sm6250-common/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
-    vendor/xiaomi/sm6250-common/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
-    vendor/xiaomi/sm6250-common/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/xiaomi/sm6250-common/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/xiaomi/sm6250-common/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
     vendor/xiaomi/sm6250-common/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
@@ -1462,8 +1460,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/33_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/33_version_update_ecc_table.sql \
     vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/34_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/34_version_update_ecc_table.sql \
     vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/35_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/35_version_update_ecc_table.sql \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/36_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/36_version_update_ecc_table.sql \
-    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/37_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/37_version_update_ecc_table.sql
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/51_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/51_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/52_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/52_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/53_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/53_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/54_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/54_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/55_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/55_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/56_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/56_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/57_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/57_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/58_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/58_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/59_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/59_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/61_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/61_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/62_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/62_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/63_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/63_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/64_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/64_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/65_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/65_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/66_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/66_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/67_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/67_version_update_ecc_table.sql \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/radio/qcril_database/upgrade/68_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/68_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
